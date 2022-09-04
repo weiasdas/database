@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "databases",
+  "info": {
+    "singularName": "database",
+    "pluralName": "databases",
+    "displayName": "database"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fact": {
+      "type": "string"
+    },
+    "factimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
